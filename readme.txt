@@ -8,5 +8,5 @@ git diff                                                  diff意为different   即
 
 注意点：
 	git commit 只提交缓存区的文件 即文件必须通过git add命令增加到待提交区
-	
+	git diff 表示的是当前文件内容和上次已经提交的内容之间的比较，而不是和git add命令后的比较
              
