@@ -31,5 +31,11 @@ git rm a.txt							从版本库中删除文件
 	
 	
 	
+在本地和远程建立好库后，通过git remote add origin git@server-name:path/repo-name.git关联两个库；
+第一次将本地commit的文件推送至远程库通过git push -u origin master   
+以后每次提交就不需要-u  
+	
+	
+	
 
              
