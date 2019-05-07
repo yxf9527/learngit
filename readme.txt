@@ -12,7 +12,7 @@ git reset --hard head^^					°æ±¾»Ø¹öµ½ÉÏÉÏÒ»¸ö°æ±¾   Í¬Àí --hard head^^^ ÉÏÉÏÉÏÒ
 git reset --hard head~10				°æ±¾»ØÍËµ½Ö®Ç°µÚ10¸ö°æ±¾
 git reset --hard 12312412...			¸ù¾İgit logÈÕÖ¾ÏÔÊ¾µÄid»ØÍËµ½ÌØ¶¨°æ±¾
 git reflog 								²é¿´Ìá½»¼ÇÂ¼ÈÕÖ¾  
-
+git checkout -- readme.txt  			°ÑĞŞ¸ÄµÄÎÄ¼şÄÚÈİÈ«²¿³·Ïú
 
 ×¢Òâµã£º
 	git commit Ö»Ìá½»Ôİ´æÇø£¨stage£©µÄÎÄ¼ş ¼´ÎÄ¼ş±ØĞëÍ¨¹ıgit addÃüÁîÔö¼Óµ½Ôİ´æÇø  commit»á½«Ôİ´æÇøµÄÎÄ¼şÌá½»ÖÁgit¸øÎÒÃÇ´´½¨µÄ·ÖÖ§masterÖĞÈ¥
