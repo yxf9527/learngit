@@ -2,13 +2,22 @@
 
 2，在该目录下新增一个文件readme1.txt和readme2.txt，文件内容随便；
 git add readme1.txt readme2.txt         类似提交到缓存区  多个文件空格隔开
-git commit -m "说明"                           正式提交
-git status                                              查看当前文件状态 哪些文件改变了
-git diff                                                  diff意为different   即show different 
+git commit -m "说明"                    正式提交
+git status                              查看当前文件状态 哪些文件改变了
+git diff                                diff意为different   即show different 
+git log 								查看提交日志
+git log -pretty=oneline  				简介格式查看提交日志
+git reset --hard head^					版本回滚到上一个版本
+git reset --hard head^^					版本回滚到上上一个版本   同理 --hard head^^^ 上上上一个版本
+git reset --hard head~10				版本回退到之前第10个版本
+git reset --hard 12312412...			根据git log日志显示的id回退到特定版本
+git reflog 								查看提交记录日志  
+
 
 注意点：
 	git commit 只提交缓存区的文件 即文件必须通过git add命令增加到待提交区
 	git diff 表示的是当前文件内容和上次已经提交的内容之间的比较，而不是和git add命令后的比较
 	如果文件多次修改了内容，每次都修改后都git add但是没commit，这种情况下统一提交 ，所以文件在修改的过程防止意外可以多次git add
+	
 
              
